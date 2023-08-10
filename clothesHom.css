@@ -1,0 +1,151 @@
+body {
+  font-family: sans-serif;
+  background-color: #f5ebeb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  background: #ffdecb;
+  direction: rtl;
+  color: #4d4d4d;
+  height: 30px;
+}
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+}
+#hom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+#companyName {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: center;
+  font-style: italic;
+}
+.iconHomHover :hover {
+  font-size: 30px;
+}
+.navMenu {
+  background: #ffbf9b;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  display: flex;
+}
+.buttonNav {
+  border-radius: 50px;
+  background: #ffbf9b;
+  width: 100px;
+  height: 30px;
+}
+.searchNav {
+  border-radius: 20px 0px 0px 20px;
+  width: 300px;
+  height: 30px;
+  border: none;
+}
+.buttonSearchNav {
+  border-radius: 0px 20px 20px 0px;
+  width: 40px;
+  height: 30px;
+  border: none;
+}
+.buttonSearchNav:hover {
+  background-color: #d9d9d9;
+}
+#search {
+  display: flex;
+}
+input[placeholder] {
+  padding-left: 20px;
+}
+
+.buttonNav:focus {
+  background: #ffdecb;
+}
+
+#textMain {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+  justify-self: self-end;
+}
+#phone {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.textFooter {
+  width: 150px;
+  margin: 15px;
+}
+
+#productCard {
+  height: 380px;
+  width: 250px;
+  background-color: #ffbf9b;
+  margin: 10px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px 0px gray;
+}
+#imgCard {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  justify-content: center;
+  margin-left: 40px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+#containerImg {
+  background: white;
+  height: 180px;
+  width: 250px;
+  border-radius: 30px 30px 0px 0px;
+  display: flex;
+}
+.buttonEdit {
+  border: none;
+  background-color: #ffbf9b;
+}
+#editing {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  margin: 10px;
+}
+#line {
+  margin: 15px;
+}
+#description {
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
